@@ -1,4 +1,4 @@
-```
+```php
 use App\Classes\Lower;
 use App\Classes\LowerTwo;
 use App\Classes\Upper;
@@ -38,6 +38,6 @@ try {
     $upper->printLowerText(); //Привет я объект класса Lower
 ////////////////////////////////////////////////////////////////////
 }catch (\App\Container\Exceptions\ContainerException $exception){
-    echo $exception->getMessage();
+    echo $exception->getMessage(); 
 }
 ```
