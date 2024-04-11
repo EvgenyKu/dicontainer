@@ -1,4 +1,4 @@
-```
+```php
 use App\Classes\Lower;
 use App\Classes\LowerTwo;
 use App\Classes\Upper;
